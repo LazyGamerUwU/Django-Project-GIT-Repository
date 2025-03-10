@@ -1,24 +1,22 @@
 # Django-Project-GIT-Repository
-CC105 Lab Project Midterms
-# Task Manager
+# CC105 Lab Project Midterms
+## Task Manager
 
-## Setup
-1. Clone the repository
-
-2. Create a virtual environment and activate it
-python -m venv venv
-source venv/bin/activate (Linux/Mac)
+### Setup
+1. Create a virtual environment and activate it <br>
+python -m venv venv <br>
+source venv/bin/activate (Linux/Mac) <br>
 venv\Scripts\activate (Windows)
 
-3. Install dependencies
+2. Install dependencies <br>
 pip install django
 
-4. Run migrations
-python manage.py makemigrations
+3. Run migrations <br>
+python manage.py makemigrations <br>
 python manage.py migrate
 
-5. Run the server
+4. Run the server <br>
 python manage.py runserver
 
-6. Open in browser
+5. Open in browser <br>
 http://localhost:8000
